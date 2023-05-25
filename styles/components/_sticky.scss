@@ -1,0 +1,44 @@
+.sticky {
+    &-image {
+        display: none;
+    }
+
+    &-block {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .sticky {
+        overflow: inherit;
+
+        &-block {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: $gap;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        &-image {
+            display: block;
+            position: sticky;
+            top: 300px;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .sticky {
+        &-block {
+            height: 600px;
+        }
+    }
+}

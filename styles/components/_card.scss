@@ -1,0 +1,62 @@
+.card {
+    text-align: start;
+    display: grid;
+    gap: $gap;
+
+    &--padding {
+        padding: 1.25rem;
+    }
+
+    &--bordered {
+        border: 1px solid $c-primary;
+
+        .card-img {
+            border-radius: 1rem;
+        }
+    }
+
+    &--rounded {
+        border-radius: 1rem;
+    }
+
+    &--feature {
+        background-color: $c-primary;
+        color: $c-white;
+        border-color: $c-secondary;
+    }
+
+    &-img {
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    &-icon {
+        height: 2.5rem;
+        width: 2.5rem;
+        object-fit: contain;
+        margin-bottom: 1rem;
+    }
+
+    &-heading {
+        display: grid;
+        gap: $gap;
+        margin-bottom: 0;
+    }
+
+    &-footer {
+        display: grid;
+    }
+
+    &-title,
+    &-subtitle {
+        margin-bottom: 0;
+    }
+
+    &-title {
+        font-size: 1.5rem;
+    }
+
+    &-subtitle {
+        font-size: 1.25rem;
+    }
+}

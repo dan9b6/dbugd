@@ -1,0 +1,107 @@
+h1,
+.h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  font-family: $font-heading;
+  font-weight: 700;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  font-family: $font-heading;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1.15rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h5,
+.h5,
+h6,
+.h6 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+ul,
+ol {
+  padding-left: 1.25rem;
+}
+
+.horizontal-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+
+  li {
+    margin-right: 1rem;
+  }
+}
+
+.vertical-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+
+  ul,
+  ol {
+    margin-top: 0.5rem;
+  }
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  font-weight: 500;
+  color: inherit;
+  font-size: 1rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+mark {
+  padding: 0.15rem 0.5rem;
+  background-color: $c-secondary;
+  color: $c-body;
+}
+
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.eyebrow {
+  color: $c-tertiary;
+}

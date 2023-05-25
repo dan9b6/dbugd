@@ -1,0 +1,47 @@
+.footer {
+    background-color: $c-primary;
+    color: $c-white;
+
+    &-top {
+        padding: 1rem 0;
+    }
+
+    &-bottom {
+        padding: 0.5rem 0;
+        background-color: $c-tertiary;
+        text-align: end;
+    }
+
+    .social-list {
+        align-self: center;
+        li {
+            margin-bottom: 0;
+        }
+        img {
+            height: 1rem;
+        }
+    }
+
+    .horizontal-list {
+        li {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .footer {
+        &-grid {
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+
+        .horizontal-list {
+            justify-content: flex-end;
+
+            li {
+                margin-right: 0;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

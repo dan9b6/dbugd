@@ -1,0 +1,72 @@
+form {
+  display: grid;
+  text-align: start;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+input {
+  font-size: 1.05rem;
+}
+
+input,
+textarea,
+label,
+select {
+  display: block;
+  width: 100%;
+
+  &:focus {
+    outline-color: $c-primary;
+  }
+}
+
+input,
+textarea,
+select {
+  padding: 0.5rem;
+  border-radius: $border-radius;
+  border: 1px solid $c-tertiary;
+}
+
+textarea {
+  min-height: 8rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.form {
+  &-row {
+    display: grid;
+    gap: $gap;
+  }
+
+  &-group {
+    width: 100%;
+  }
+}
+
+.contact {
+  display: grid;
+  text-align: center;
+
+  &-form {
+    display: grid;
+    gap: $gap;
+    margin: 1.5rem 0;
+  }
+}
+
+@media (min-width: $md) {
+  .form {
+    &-row {
+      display: flex;
+    }
+  }
+}

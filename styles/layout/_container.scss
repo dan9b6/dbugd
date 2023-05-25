@@ -1,0 +1,35 @@
+.container,
+.container--narrow {
+  width: 100%;
+  max-width: $container-xs;
+  margin: 0 auto;
+  padding: 0 $gap;
+}
+
+.container--narrow {
+  max-width: $container-sm;
+}
+
+@media (min-width: $sm) {
+  .container {
+    max-width: $container-sm;
+  }
+}
+
+@media (min-width: $md) {
+  .container {
+    max-width: $container-md;
+  }
+}
+
+@media (min-width: $lg) {
+  .container {
+    max-width: $container-lg;
+  }
+}
+
+@media (min-width: $xl) {
+  .container {
+    max-width: $container-xl;
+  }
+}

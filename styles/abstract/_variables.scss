@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@200;300;400;600&display=swap");
+// Theme
+$c-white: #fcfcfc;
+$c-black: #000;
+$c-pink: #fe6d73;
+$c-yellow: #ffcb77;
+$c-green: #17c3b2;
+$c-blue: #227c9d;
+$c-navy: #0b3948;
+
+$c-body: $c-navy;
+$c-primary: $c-navy;
+$c-secondary: $c-green;
+$c-tertiary: $c-blue;
+$c-secondary-hover: #139f91;
+$c-tertiary-hover: #165369;
+$c-primary-hover: #051d24;
+$c-secondary-transparent: rgba(23, 195, 178, 0.9);
+$c-tertiary-transparent: rgba(34, 124, 157, 0.9);
+$c-primary-transparent: rgba(11, 57, 72, 0.9);
+
+// Font
+$font-heading: "Manrope", sans-serif;
+$font: "Poppins", sans-serif;
+
+// Screen Width
+$xs: 567px;
+$sm: 767px;
+$md: 991px;
+$lg: 1200px;
+$xl: 1600px;
+
+// Container
+$container-xs: 540px;
+$container-sm: 720px;
+$container-md: 960px;
+$container-lg: 1140px;
+$container-xl: 1400px;
+
+// Border Radius
+$border-radius: 0.25rem;
+
+// Gap
+$gap: 1rem;

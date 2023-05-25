@@ -1,0 +1,40 @@
+@mixin btn($bg: $c-primary, $bg-hover: $c-primary-hover, $color: $c-white, $color-hover: $c-white) {
+  display: block;
+  background-color: $bg;
+  color: $color;
+  transition: 0.25s;
+  transform: scale(1);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  min-width: 175px;
+  text-align: center;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: $bg-hover;
+    color: $color-hover;
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+    background-color: $bg-hover;
+    color: $color-hover;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.btn {
+  @include btn;
+
+  &-secondary {
+    @include btn($c-secondary, $c-secondary-hover);
+  }
+}

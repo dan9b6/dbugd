@@ -1,0 +1,30 @@
+.statement {
+    display: grid;
+    gap: $gap;
+    color: $c-white;
+    border-radius: 1rem;
+    position: relative;
+    background-image: url("/images/pt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+
+    &-content {
+        padding: 3rem 2rem;
+        position: relative;
+        display: grid;
+        gap: $gap;
+        color: $c-white;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $c-tertiary-transparent;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+}

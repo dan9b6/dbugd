@@ -1,0 +1,24 @@
+.feature {
+    &-grid {
+        display: grid;
+        gap: $gap;
+    }
+}
+
+@media (min-width: $md) {
+    .feature {
+        overflow: hidden;
+
+        &-text {
+            align-self: center;
+        }
+
+        &-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        &-image {
+            width: 60rem;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@import "./abstract/variables";
+@import "./base/typography";
+@import "./layout/container";
+@import "./layout/grid";
+@import "./components/button";
+@import "./components/form";
+@import "./components/nav";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/feature";
+@import "./components/section";
+@import "./components/pricing";
+@import "./components/card";
+@import "./components/statement";
+@import "./components/testimonial";
+@import "./components/team";
+@import "./components/sticky";
+@import "./components/footer";
+@import "./components/socials";
+@import "./components/service";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+html,
+body {
+  font-size: 15px;
+}
+
+body {
+  color: $c-body;
+}
+
+@media (min-width: $md) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
