@@ -11,8 +11,8 @@ const Statement = () => {
               Choosing the right web agency to partner with is crucial for the
               success of your online endeavors. At dbugd, we offer a unique
               blend of expertise, passion, and personalized service that sets us
-              apart from the competition. Here's why you should choose to work
-              with us:
+              apart from the competition. Here&apos;s why you should choose to
+              work with us:
             </p>
             <ul className="horizontal-list">
               <li>

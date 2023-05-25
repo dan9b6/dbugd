@@ -10,8 +10,8 @@ const Pricing = () => {
           <p className="lead">
             We offer flexible pricing packages designed to suit the unique needs
             and budgets of our clients. Our transparent pricing structure
-            ensures that you know exactly what you're paying for and allows you
-            to choose the package that best aligns with your requirements.
+            ensures that you know exactly what you&apos;re paying for and allows
+            you to choose the package that best aligns with your requirements.
           </p>
         </div>
         <div className="grid grid-3">
